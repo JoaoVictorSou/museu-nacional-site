@@ -1,0 +1,12 @@
+/*Configurações gerais*/
+body {
+    background: #f4f2ec url(../img/fundo.png) repeat-x;
+}
+#container {
+    margin: auto;
+    width: 1080px;
+    height: 300px;
+    border: 1px solid red;
+}
+
+/*Cabeçalho do site*/
