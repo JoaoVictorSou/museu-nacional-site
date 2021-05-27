@@ -60,6 +60,20 @@
                 <article>
                     <img src="img/depoimento.png" alt="Depoimento da direção do museu: Museu Nacional críado em 1922, é um dos mais importantes museus do Brasil, reunindo arcevo de mais de duzentos e cinquenta mil ítens">
                 </article>
+                <article id="visitation">
+                    <h4>Faça uma visita</h4>
+                    <form action="">
+                        <fieldset>
+                            <legend>Selecione uma data</legend>
+                            <label for="date">Data</label>
+                            <input type="date" id="date" name="date" required>
+                            <label for="number">Qtd pessoas</label>
+                            <input type="number" id="number" name="number" value="1" min="1" max="15" required>
+                        </fieldset>
+
+                        <input type="submit" value="Verificar disponibilizade">
+                    </form>
+                </article>
             </aside>
         </div>
     </div>
