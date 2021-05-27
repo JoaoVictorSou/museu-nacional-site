@@ -1,6 +1,7 @@
 /*Configurações gerais*/
 body {
     background: #f4f2ec url(../img/fundo.png) repeat-x;
+    font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
 }
 #container {
     margin: auto;
@@ -8,5 +9,39 @@ body {
     height: 300px;
     border: 1px solid red;
 }
-
+ul {
+    list-style: none;
+}
+a:link, a:active, a:visited {
+    text-decoration: none;
+    color: #af670a;
+}
+a:hover {
+    color: #227115;
+}
 /*Cabeçalho do site*/
+header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    padding-left: 0;
+    height: 55px;
+}
+
+/*Cabeçalho do site: navegação*/
+header nav {
+    margin-left: auto;
+    
+}
+header nav ul li {
+    float: left;
+}
+header nav ul li a:link {
+    display: block;
+    margin-right: 25px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+}
+header nav li a:hover {
+    border-bottom: 1px solid #535858;
+}
