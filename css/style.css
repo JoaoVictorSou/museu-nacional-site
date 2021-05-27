@@ -54,12 +54,14 @@ main {
 aside {
     float: right;
     width: 350px;
+    background-color: #ebe7dd;
 }
 aside section#visitation {
+    margin-top: 10px;
     background: #cdc8b1;
     padding: 10px 27px 27px 27px;
 }
-aside section#visitation h4 {
+aside h4 {
     color: #86521a;
     text-transform: uppercase;
     padding-bottom: 3px;
@@ -87,4 +89,24 @@ aside section#visitation form input[type="submit"] {
     width: 100%;
     height: 40px;
     font-size: 1.2em;
+}
+aside section#gallery div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 270px;
+    padding: 40px;
+    padding-top: 10px;
+}
+aside section#gallery h4 {
+    padding-left: 25px;
+}
+aside section#gallery div .photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background: url(../img/fundo-foto.png) no-repeat center;
+    width: 126px;
+    height: 133px;
 }
