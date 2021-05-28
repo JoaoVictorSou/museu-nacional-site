@@ -41,7 +41,16 @@ header nav li a:hover {
     border-bottom: 1px solid #535858;
 }
 
+/*Corpo do site*/
+#main-content-box h4, #main-content-box h3 {
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+}
 /*Corpo do site: principal*/
+main ul {
+    list-style-type: circle;
+}
 #main-content-box {
     display: flex;
     justify-content: space-between;
@@ -49,7 +58,30 @@ header nav li a:hover {
 main {
     width: 710px;
 }
-
+main #secondary-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+main #secondary-content article {
+    margin-bottom: 20px;
+    width: 330px; 
+    height: 210px
+}
+main h3 {
+    color: #227115;
+    font-size: 1em;
+}
+main iframe {
+    margin: 10px 0 0 5px;
+}
+main #secondary-content li:nth-last-child(1){
+    font-weight: bolder;
+}
+main #secondary-content span a {
+    font-weight: bolder;
+}
 /*Corpo do site: lateral*/
 aside {
     float: right;
@@ -63,9 +95,6 @@ aside section#visitation {
 }
 aside h4 {
     color: #86521a;
-    text-transform: uppercase;
-    padding-bottom: 3px;
-    margin-bottom: 0;
 }
 aside section#visitation form fieldset {
     border: none;
