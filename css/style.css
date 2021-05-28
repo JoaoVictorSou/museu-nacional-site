@@ -42,6 +42,11 @@ header nav li a:hover {
 }
 
 /*Corpo do site*/
+#main-content-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
 #main-content-box h4, #main-content-box h3 {
     text-transform: uppercase;
     padding-bottom: 3px;
@@ -50,10 +55,6 @@ header nav li a:hover {
 /*Corpo do site: principal*/
 main ul {
     list-style-type: circle;
-}
-#main-content-box {
-    display: flex;
-    justify-content: space-between;
 }
 main {
     width: 710px;
@@ -126,6 +127,7 @@ aside section#gallery div {
     width: 270px;
     padding: 40px;
     padding-top: 10px;
+    padding-bottom: 30px;
 }
 aside section#gallery h4 {
     padding-left: 25px;
@@ -138,4 +140,17 @@ aside section#gallery div .photo {
     background: url(../img/fundo-foto.png) no-repeat center;
     width: 126px;
     height: 133px;
+}
+
+/*Rodapé do site*/
+footer {
+    width: 80%;
+    margin: auto;
+    background: url(../img/fundo-rodape.png) repeat-x;
+    padding: 15px 0 30px 0;
+    text-align: center;
+}
+footer ul li {
+    display: inline-block;
+    margin: 0 10px;
 }
